@@ -1,3 +1,7 @@
+/**
+ * In comparison to var, let refers to the block scope
+ */
+
 let name = "Michael";
 
 {
@@ -7,7 +11,3 @@ let name = "Michael";
 }
 
 console.log(name);
-
-/**
- * In comparison to var, let refers to the block scope
- */
