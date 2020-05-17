@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>JavaScript in Body</h2>
+
+    <p id="demo"></p>
+
+    <script>
+      document.getElementById("demo").innerHTML = "My First JavaScript";
+      console.log("Hello console"); // In the script tag Javascript can execute
+      const str = "A string";
+      function func() {
+        console.log("This is a ", str);
+      }
+      function func2() {
+        console.log("This html button calls a JS function");
+      }
+      func();
+    </script>
+    <button type="button" onClick="func2()">Press me</button>
+  </body>
+</html>
