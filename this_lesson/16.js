@@ -1,4 +1,4 @@
-//"use strict";
+"use strict";
 
 function func() {
   console.log(this === global);
